@@ -1,0 +1,39 @@
+{
+    "description": "A noise using terrain generator using p5.js\nStill in development; current version 0.1",
+    "file": "index.html",
+    "general": {
+        "properties": {
+            "generalText": {
+                "order": 1,
+                "text": "--------------------------------------------------<br/>Settings<br/>--------------------------------------------------",
+                "type": "text"
+            },
+            "backgroundColor": {
+                "order": 4,
+                "type": "color",
+                "name": "Background Color",
+                "value": "0 0 0"
+            },
+            "lineColor": {
+                "order": 5,
+                "type": "color",
+                "name": "Line Color",
+                "value": "0.6 1 0.4"
+            },
+            "fillAlpha": {
+                "max": 100,
+                "min": 0,
+                "order": 6,
+                "name": "Alpha for the filling",
+                "type": "slider",
+                "value": 68
+            }
+        }
+    },
+    "monetization": false,
+    "preview": "preview.png",
+    "tags": [ "CGI" ],
+    "title": "Procedural Random Map Generator",
+    "type": "web",
+    "visibility": "public"
+}
